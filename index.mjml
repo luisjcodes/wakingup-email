@@ -1,0 +1,37 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header {
+        background-color: #fff;
+      }
+
+      .section-padding {}
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <!-- Header -->
+    <mj-section css-class="header">
+      <mj-column>
+        <mj-image alt="waking up logo" href="https://www.wakingup.com/" width="121px" align="left" src="/img/logo.png" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column>
+        <mj-image href="#" padding-bottom="20px" src="img/blue-flower.jpg">
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="24px" color="#0e1529" font-weight="bold" padding="20px">Deep Rest</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+  </mj-body>
+</mjml>
